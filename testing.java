@@ -15,15 +15,15 @@ public class testing {
             if (x % 2 == 0){
                 check = x/2;
                 x=check;
-                System.out.println(x);
+                System.out.print(x + ", ");
     
             } else if(x % 2 == 1){
                 check = (x*3) + 1;
                 x = check;
-                System.out.println(x);
+                System.out.print(x + ", ");
             }
             if(x==1){
-                System.out.println(i + ") goes to 4, 2, 1 sequence! ");
+                System.out.println("\n" + i + ") goes to 4, 2, 1 sequence! ");
             }
             if (i == 200 && x == 1){
                 System.out.println("All numbers 1-200 following this sequence!");
